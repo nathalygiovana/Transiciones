@@ -1,0 +1,68 @@
+<!-DOCTYPE HTML-->
+<html>
+<head>
+
+<link rel="stylesheet" href="css/jquery.mobile.theme-1.4.5.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/jquery.mobile-1.4.5.css" type="text/css"/>
+<script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
+<script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
+<style type="text/css">
+#encavesado{
+    text-align: center;
+    font-size: 14px;
+    color: #CC0000;
+    font-weight:bold;
+}
+#encavesado1{
+    text-align: center;
+    font-size: 10px;
+    color: #0080FF;
+    font-weight:bold;}
+</style>
+</head>
+   <body>
+      <div data-role="page" id="principal">
+        <div data-role="header">
+            <h1>Mi Aplicación</h1>
+            
+        </div>
+        <div data-role="content">
+           <p id="encavesado">Transiciones</p>
+           <a href="#segunda" data-role="button" data-transition="slideup">Trancicion hacia arriba</a>
+           <a href="#segunda" data-role="button" data-transition="slidedown">Trancicion hacia abajo</a>
+           <a href="#segunda" data-role="button" data-transition="top">Top</a>
+           <a href="#segunda" data-role="button" data-transition="flip">flip</a>
+           <a href="#segunda" data-role="button" data-transition="fade">fade</a>
+           <a href="#segunda" data-role="button" data-transition="flow">flow</a>
+           <a href="#segunda" data-role="button" data-transition="slidefade">slideflow</a>
+           <a href="#segunda" data-role="button" data-transition="turn">turn</a>
+           <a href="#segunda" data-role="button" data-transition="none">none</a>
+        </div>
+        <div data-role="footer">
+            <div data-role="controlgroup" data-type="horizontal">
+                <a href="#segunda" class="ui-btn ui-btn-icon ui-icon-info ui-icon-left" >abrir</a>
+                <a href="#segunda" class="ui-btn" >facebook</a>
+                <a href="#segunda" class="ui-btn" >twitter</a>
+                    
+                
+            </div>
+       </div>
+     </div>
+
+      <div data-role="page" id="segunda">
+        <div data-role="header ">
+            <h1>Mi Aplicacion2</h1>
+
+        </div>
+        <div data-role="content ">
+           <p>hola mundo2</p>
+        </div>
+        <div data-role="footer">
+           <p>pie de paguina2</p>
+       </div>
+     </div>
+
+   </body>
+
+</html>
